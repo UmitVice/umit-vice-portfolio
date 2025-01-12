@@ -1,0 +1,59 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "life-world",
+      "title": "Life World",
+      "description": "This is the description for Life World.",
+      "image": "assets/images/life-world-home.png",
+      "detailsLink": "/project/life-world",
+      "externalLink": "https://life-world.vercel.app/"
+    },
+    {
+      "id": 2,
+      "name": "project-beta",
+      "title": "Project Beta",
+      "description": "This is the description for Project Beta.",
+      "image": "/images/project-beta.jpg",
+      "detailsLink": "/project/project-beta",
+      "externalLink": "https://example.com/project-beta"
+    },
+    {
+      "id": 3,
+      "name": "project-gamma",
+      "title": "Project Gamma",
+      "description": "This is the description for Project Gamma.",
+      "image": "/images/project-gamma.jpg",
+      "detailsLink": "/project/project-gamma",
+      "externalLink": "https://example.com/project-gamma"
+    }, 
+    {
+        "id": 4,
+        "name": "project-alpha",
+        "title": "Project Alpha",
+        "description": "This is the description for Project Alpha.",
+        "image": "/images/project-alpha.jpg",
+        "detailsLink": "/project/project-alpha",
+        "externalLink": "https://example.com/project-alpha"
+      
+    },    
+    {
+        "id": 5,
+        "name": "project-beta",
+        "title": "Project Beta",
+        "description": "This is the description for Project Beta.",
+        "image": "/images/project-beta.jpg",
+        "detailsLink": "/project/project-beta",
+        "externalLink": "https://example.com/project-beta"
+    },
+    {
+        "id": 6,
+        "name": "project-gamma",
+        "title": "Project Gamma",
+        "description": "This is the description for Project Gamma.",
+        "image": "/images/project-gamma.jpg",
+        "detailsLink": "/project/project-gamma",
+        "externalLink": "https://example.com/project-gamma"
+    }
+  ]
+}
