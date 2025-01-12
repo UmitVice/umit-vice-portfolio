@@ -1,15 +1,28 @@
 import '@/styles/globals.css';
-import Header from '@/components/Header';
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer';
+import Header from '@/components/Header';
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+const inter = Inter({ subsets: ['latin'] })
+
+export const metadata: Metadata = {
+  title: 'Umit Vice - Portfolio',
+  description: 'Umit Vice Portfolio',
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <html lang="en">
-      <body className="bg-gray-50">
+    <html lang="en" className="h-full">
+      <body className={`${inter.className} h-full flex flex-col`}>
         <Header />
-        <main className="pt-20">{children}</main>
+        {children}
         <Footer />
       </body>
     </html>
-  );
+  )
 }

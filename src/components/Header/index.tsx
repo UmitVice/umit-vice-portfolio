@@ -5,7 +5,7 @@ import '@/styles/globals.css';
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-primary text-white fixed top-4 w-full z-10 shadow-md">
+    <header className="bg-primary text-white fixed w-full z-10 shadow-md">
       <nav className="container mx-auto flex justify-between items-center p-4">
         <div className="text-xl font-bold">My Portfolio</div>
         <ul className="hidden md:flex space-x-6">
